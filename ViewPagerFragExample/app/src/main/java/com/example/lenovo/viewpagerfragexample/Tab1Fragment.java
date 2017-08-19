@@ -8,9 +8,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Tab1Activity extends Fragment {
+public class Tab1Fragment extends Fragment {
 
     //Overriden method onCreateView
+
+    private static Tab1Fragment tab1Fragment;
+
+    private Tab1Fragment(){
+
+    }
+
+    public static Tab1Fragment getInstance(){
+        if(tab1Fragment==null){
+            return  new Tab1Fragment();
+        }else {
+            return tab1Fragment;
+        }
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 

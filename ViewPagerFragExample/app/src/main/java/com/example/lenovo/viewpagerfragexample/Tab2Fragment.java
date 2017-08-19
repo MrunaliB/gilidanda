@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Tab2Activity extends Fragment{
+public class Tab2Fragment extends Fragment{
 
 
         //Overriden method onCreateView

@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Tab3Activity extends Fragment{
+public class Tab3Fragment extends Fragment{
 
 
     @Override

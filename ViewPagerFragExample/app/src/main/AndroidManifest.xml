@@ -16,11 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Tab1Activity" />
-        <activity android:name=".Tab2Activity" />
-        <activity android:name=".Tab3Activity" />
-        <activity android:name=".Tab4Activity" />
-        <activity android:name=".Tab5Activity"></activity>
+        <activity android:name=".Tab1Fragment" />
+        <activity android:name=".Tab2Fragment" />
+        <activity android:name=".Tab3Fragment" />
+        <activity android:name=".Tab4Fragment" />
+        <activity android:name=".Tab5Fragment"></activity>
     </application>
 
 </manifest>
